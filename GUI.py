@@ -13,7 +13,7 @@ class GUI:
         ttk.Label(self.frame_header, image = self.image).grid(row =1, column = 0, padx = 10, pady = 10)
         ttk.Label(self.frame_header, wraplength = 200, text = "Normalized difference vegetation index(NDVI) prepared for a red "
                                             "and infrared channel from a scene in semi Arid Australia").grid(row = 2, column = 0)
-#push
+
 
         self.frame_setDirectory = ttk.Frame(master, width = 200, height = 300, relief = SUNKEN)
         self.frame_setDirectory.grid(row = 2, column = 0, padx = 10, pady = 10, stick = 'n', ipady = 10)
